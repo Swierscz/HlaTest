@@ -1,0 +1,10 @@
+WARN  [VERIFY_SUSPECT.TimerThread,TestFederation,DESKTOP-7C846T4-48149] portico.lrc.jgroups: Detected that federate [unkonwn] may have crashed, investigating...
+WARN  [Regular] portico.lrc.jgroups: Unknown channel member crashed. Don't think it was a federate. Ignoring. uuid=2dd2fd7c-9bc3-43ef-a11d-cd4580a95a1f
+gulationHandler.java:75)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.enableTimeRegulation(Rti13Ambassador.java:3224)
+	at TestFederate2.enableTimePolicy(TestFederate2.java:117)
+	at TestFederate2.runFederate(TestFederate2.java:62)
+	at TestFederate2.main(TestFederate2.java:189)
